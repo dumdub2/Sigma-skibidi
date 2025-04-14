@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+header h1 {
+    text-align: center;
+    color: chocolate;
+    margin-bottom: 20px;
+}
+
+header ul {
+    text-align: center;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    padding: 20px 15px;
+    display: inline-block;
+    color: black
+}
+
+header ul li a:hover {
+    background-color: chocolate;
+    color: white;
+}
+
+.aktif {
+    background-color: chocolate;
+    color: white;
+}
+
+.content {
+    background-color: beige;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 40px;
+    color: chocolate;
+}
+
+.content p {
+    font-size: 20px;
+    color: chocolate;
+    margin-top: 20px;
+}
+
+.content button {
+    padding: 10px 20px;
+    background-color: chocolate;
+    color: beige;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.fitur-produk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 50px 0;
+}
+
+.fitur-produk h2{
+    color: chocolate;
+    align-items: center;
+}
+
+
+.produk {
+    width: 250px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+.produk img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.produk h3 {
+    color: chocolate;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.produk p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.produk button {
+    padding: 10px 15px;
+    background-color: chocolate;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.produk .box .btn:hover {
+    background-color: chocolate; 
+    color: beige; 
+}
+
+
+.penilaian-produk {
+    background-color: beige;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.penilaian-produk h2{
+    color: chocolate;
+}
+
+.penilaian-produk {
+    margin-bottom: 30px;
+}
+
+.penilaian-produk p {
+    font-size: 18px;
+    color: chocolate;
+    margin-bottom: 10px;
+}
+
+.penilaian-produk span {
+    font-size: 16px;
+    color: #777;
+}
+
+footer{
+    text-align: center;
+    padding: 30px 0;
+    background-color:chocolate;
+}
